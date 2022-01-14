@@ -85,13 +85,23 @@ html::-webkit-scrollbar-thumb {
 .paragraph {
     font-size: 1.2rem;
     color: var(--text-color);
+    margin: 2rem 0rem;
+}
+
+.colo-text {
+    color: var(--theme-color);
 }
 
 .button-btn {
     font-size: 1.7rem;
     color: var(--white);
     background-color: var(--theme-color);
-    padding: 0.7rem 1.2rem;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.button-btn i {
+    margin-left: 0.5rem;
 }
 
 
@@ -146,3 +156,57 @@ header .navbar-nav ul i:hover {
 
 
 
+/**************************************
+***home section style start here*****/
+
+.row-flex .text-area {
+    flex-basis: 60%;
+    padding-right: 3rem;
+}
+
+.header-title {
+    font-size: 5rem;
+}
+
+
+.row-flex .img-area {
+    flex-basis: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid rgb(230, 230, 230);
+    border-radius: 50%;
+    padding: 2rem 0rem;
+}
+
+.row-flex .img-area .img-bg-color {
+    background-color: rgb(230, 230, 230);
+    border-radius: 50%;
+   
+}
+
+.row-flex .img-area img {
+    width: 440px;
+    height: 414px;
+    position: relative;
+    animation: header-img 3s linear infinite alternate none;
+    animation-play-state: running;
+}
+
+@keyframes header-img {
+    0% {
+        top: 0rem;
+    }
+
+    50% {
+        top: 1rem;
+    }
+
+    100% {
+        top: 0rem;
+    }
+}
+
+
+/**************************************
+***home section style end here*****/
