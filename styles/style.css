@@ -324,7 +324,10 @@ button .products-button {
     position: absolute;
     margin-top: 3rem;
     right: 0rem;
+}
 
+button .products-button:hover {
+    color: var(--black);
 }
 
 button .products-button i {
@@ -333,3 +336,13 @@ button .products-button i {
 
 /********************************************
 ***product section style end here*******/
+
+
+
+
+/*********************************************
+***get in touch section style start here***/
+
+
+/*********************************************
+***get in touch section style start here***/
