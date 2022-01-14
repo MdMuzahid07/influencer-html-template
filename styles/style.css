@@ -88,7 +88,7 @@ html::-webkit-scrollbar-track {
     margin: 2rem 0rem;
 }
 
-.colo-text {
+.color-text {
     color: var(--theme-color);
 }
 
@@ -241,3 +241,21 @@ header .navbar-nav ul i:hover {
 
 /******************************************
 ***brand logo section end here*******/
+
+
+/********************************************
+***product section style start here*******/
+#products .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#products > h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+/********************************************
+***product section style end here*******/
